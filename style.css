@@ -1,13 +1,18 @@
-body{
-    background: rgb(71,71,71);
-    background: linear-gradient(90deg, rgba(71,71,71,1) 0%, rgba(87,86,86,1) 38%, rgba(125,125,125,1) 90%, rgba(125,125,125,1) 100%);
+body {
+    background: rgb(71, 71, 71);
+    background: linear-gradient(90deg, rgba(71, 71, 71, 1) 0%, rgba(87, 86, 86, 1) 38%, rgba(125, 125, 125, 1) 90%, rgba(125, 125, 125, 1) 100%);
 }
 
 .jumbo-background {
-background-color: #403f3f;
+    background-color: #403f3f;
 }
 
-.main-img-design{
-border-radius: 50%;
-height: 20vh;
+.main-img-design {
+    border-radius: 50%;
+    height: 20vh;
+}
+
+.box {
+    display: flex;
+    align-items: center;
 }
